@@ -20,3 +20,5 @@ fields:
 - type: text
   name: lang-ref
   label: lang-ref
+pages:
+- index.html
