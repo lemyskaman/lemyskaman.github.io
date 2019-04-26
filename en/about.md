@@ -6,6 +6,7 @@ crawlertitle: "Why and how this blog was created"
 permalink: /about/
 summary: "About this blog"
 active: about
+order: 2
 lang-ref: about
 ---
 

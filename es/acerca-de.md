@@ -6,6 +6,7 @@ crawlertitle: "Quien es lemys"
 permalink: /acerca-de/
 summary: "Acerca de este blog"
 active: Acerca de
+order: 2
 lang-ref: about
 ---
 

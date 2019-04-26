@@ -7,11 +7,20 @@
     <a class="blog-logo" href="{{ site.baseurl }}/{{page.lang}}">{{ site.title }}</a>
 
     {% assign pages_list = site.pages | where:"lang", page.lang %}
-    {% for my_page in pages_list %}
-      {% if my_page.active %}
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-      {% endif %}
+
+    {% assign iter = pages_list | size %}
+
+    {% for i in (1..iter) %}
+      {% for my_page in pages_list %}
+        {% if my_page.active and i == my_page.order %}
+    <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
+
+
+    
+
 
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
 
@@ -19,4 +28,3 @@
   </nav>
 
 </header>
-  
