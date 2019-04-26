@@ -4,9 +4,10 @@
 
   <nav class="center-wrapper nav-main">
 
-    <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="blog-logo" href="{{ site.baseurl }}/{{page.lang}}">{{ site.title }}</a>
 
-    {% for my_page in site.pages %}
+    {% assign pages_list = site.pages | where:"lang", page.lang %}
+    {% for my_page in pages_list %}
       {% if my_page.active %}
         <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
       {% endif %}
@@ -18,3 +19,4 @@
   </nav>
 
 </header>
+  

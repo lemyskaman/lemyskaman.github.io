@@ -1,11 +1,5 @@
 ---
-bg: "tag.jpg"
 layout: page
-permalink: /posts/
-title: "Archive"
-crawlertitle: "All articles"
-summary: "Posts about jekyll"
-active: archive
 ---
 
 {% for tag in site.tags %}
@@ -16,7 +10,7 @@ active: archive
 
   <ul class="year">
     {% for post in posts %}
-      {% if post.tags contains t %}
+      {% if post.tags contains t  and post.lang contains page.lang %}
         <li>
           {% if post.lastmod %}
             <a href="{{ post.url | relative_url}}">{{ post.title }}</a>

@@ -61,3 +61,34 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+defaults:
+  -
+    scope:
+      path: "en"
+      type: "pages"
+    values:
+      lang: "en"
+      layout: "page"
+  -
+    scope:
+      path: "es"
+      type: "pages"
+    values:
+      lang: "es"
+      layout: "page"
+  -
+    scope:
+      path: "en"
+      type: "posts"
+    values:
+      lang: "en"
+      layout: "post"
+  -
+    scope:
+      path: "es"
+      type: "posts"
+    values:
+      lang: "es"
+      layout: "post"
