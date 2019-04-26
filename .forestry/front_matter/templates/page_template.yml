@@ -21,6 +21,8 @@ fields:
   name: lang-ref
   label: lang-ref
 pages:
+- es/archivo.md
+- es/acerca-de.md
 - en/archive.md
 - en/about.md
 - en/index.md
