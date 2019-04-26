@@ -1,0 +1,22 @@
+---
+label: page_template
+hide_body: true
+fields:
+- type: file
+  name: bg
+  label: bg
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: crawlertitle
+  label: crawlertitle
+- type: text
+  name: summary
+  label: summary
+- type: text
+  name: lang-ref
+  label: lang-ref
