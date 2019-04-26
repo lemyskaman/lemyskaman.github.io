@@ -15,7 +15,7 @@ sections:
   label: EN_PAGES
   create: documents
   match: "**/*.md"
-  exclude: _posts
+  exclude: _posts/
 - type: directory
   path: es/_posts
   label: ES_POSTS
