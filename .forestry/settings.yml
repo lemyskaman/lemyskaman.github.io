@@ -9,6 +9,7 @@ sections:
   label: ES_PAGES
   create: documents
   match: "**/*.md"
+  exclude: _posts/
 - type: directory
   path: en
   label: EN_PAGES
