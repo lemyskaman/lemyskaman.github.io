@@ -5,16 +5,26 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: es
+  label: ES_PAGES
+  create: documents
+  match: "**/*.md"
+- type: directory
+  path: en
+  label: EN_PAGES
+  create: documents
+  match: "**/*.md"
+  exclude: _posts
+- type: directory
+  path: es/_posts
+  label: ES_POSTS
+  create: all
+  match: "**/*"
+- type: directory
   path: en/_posts
-  label: EN_POST
+  label: EN_POSTS
   create: documents
   match: "**/*"
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
