@@ -8,6 +8,7 @@ summary: Acerca de este blog
 active: Acerca de
 order: 2
 lang-ref: about
+content: prueba
 
 ---
 aqui va algo sobre mi
