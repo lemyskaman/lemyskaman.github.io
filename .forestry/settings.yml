@@ -7,13 +7,11 @@ sections:
 - type: document
   path: index.html
   label: INDEX
-  match: "**/*"
-  read_only: false
 - type: directory
   path: es
   label: ES_PAGES
   create: documents
-  match: "**/*.md"
+  match: "*.md"
   exclude: _posts/
 - type: directory
   path: en
