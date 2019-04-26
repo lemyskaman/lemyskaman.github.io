@@ -1,0 +1,31 @@
+---
+label: post_template
+hide_body: false
+fields:
+- type: file
+  name: bg
+  label: bg
+- type: text
+  name: title
+  label: title
+- type: text
+  name: crawlertitle
+  label: crawlertitle
+- type: text
+  name: summary
+  label: summary
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: author
+  label: author
+- type: text
+  name: lang-ref
+  label: lang-ref
