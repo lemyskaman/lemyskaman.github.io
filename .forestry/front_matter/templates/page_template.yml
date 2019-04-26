@@ -21,4 +21,5 @@ fields:
   name: lang-ref
   label: lang-ref
 pages:
+- es/index.md
 - index.html
