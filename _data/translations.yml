@@ -6,6 +6,7 @@ en:
   travels: Travels
   content_available_in: Content available in
   read_it_in: Read it in
+  chair: silla
 es:
   untagged: Sin Etiqueta
   guides_and_tutorials: Guias y Tutoriales
@@ -13,3 +14,4 @@ es:
   travels: Viajes
   content_available_in: Contenido disponible en
   read_it_in: Leelo en
+  chair: ''
