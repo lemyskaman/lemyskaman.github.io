@@ -23,11 +23,11 @@ fields:
     required: false
   label: crawlertitle
   description: 'how does robots see it '
-- name: sumary
+- name: summary
   type: text
   config:
     required: false
-  label: sumary
+  label: summary
 - name: lang-ref
   type: text
   config:
