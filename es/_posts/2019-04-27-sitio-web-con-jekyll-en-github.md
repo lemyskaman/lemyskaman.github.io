@@ -6,7 +6,7 @@ date: 2019-04-27 04:00:00 +0000
 categories: posts
 tags: guias-y-tutoriales
 author: Lemys Lopez
-lang-ref: welcome-jekyll
+lang-ref: jekyll-on-github-website
 sumary: Pagina con Jekyll Github
 bg: "/jekyll_on_github.png"
 
