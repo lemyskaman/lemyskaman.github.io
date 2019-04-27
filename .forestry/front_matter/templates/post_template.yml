@@ -73,5 +73,3 @@ fields:
     required: true
   label: author
   default: Lemys Lopez
-pages:
-- es/_posts/sitio-web-con-jekyll-en-github.md

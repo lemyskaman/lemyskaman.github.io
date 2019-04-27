@@ -57,10 +57,10 @@ fields:
     required: true
     options:
     - frameworks
-    - guides-and-tutorials
     - proyects
     - travels
-    - un-tagged
+    - untagged
+    - guides_and_tutorials
     source:
       type: simple
       section: 
