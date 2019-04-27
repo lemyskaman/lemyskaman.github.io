@@ -1,10 +1,10 @@
 ---
-title: bienvenido a Jekyll!
-crawlertitle: como usar jekyll
-summary: Jekyll pagina por defecto
+title: Web estática con jekyll, en github
+crawlertitle: Web estática con jekyll, en github
+summary: Jekyll + github = tu web
 date: 2016-06-28 16:09:47 +0000
 categories: posts
-tags: Frameworks
+tags: guias-y-tutoriales
 author: Lemys Lopez
 lang-ref: welcome-jekyll
 sumary: Pagina con Jekyll Github
