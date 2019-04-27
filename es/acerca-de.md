@@ -8,10 +8,10 @@ summary: Acerca de este blog
 active: Acerca de
 order: 2
 lang-ref: about
-content: "prueba"
+content: prueba
+sumary: ''
 
 ---
-{{ content }}
 aqui va algo sobre mi
 
 You can find the source code for the Jekyll new theme at:

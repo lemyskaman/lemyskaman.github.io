@@ -31,7 +31,6 @@ fields:
   label: content
 pages:
 - es/archivo.md
-- es/acerca-de.md
 - en/archive.md
 - en/index.md
 - es/index.md

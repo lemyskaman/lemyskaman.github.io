@@ -34,3 +34,5 @@ fields:
     required: false
   label: lang-ref
   description: relation
+pages:
+- es/acerca-de.md
