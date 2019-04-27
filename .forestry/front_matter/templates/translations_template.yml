@@ -1,0 +1,48 @@
+---
+label: translations_template
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: untagged
+    label: untagged
+  - type: text
+    name: guides_and_tutorials
+    label: guides_and_tutorials
+  - type: text
+    name: frameworks
+    label: frameworks
+  - type: text
+    name: travels
+    label: travels
+  - type: text
+    name: content_available_in
+    label: content_available_in
+  - type: text
+    name: read_it_in
+    label: read_it_in
+- type: field_group
+  name: es
+  label: es
+  fields:
+  - type: text
+    name: untagged
+    label: untagged
+  - type: text
+    name: guides_and_tutorials
+    label: guides_and_tutorials
+  - type: text
+    name: frameworks
+    label: frameworks
+  - type: text
+    name: travels
+    label: travels
+  - type: text
+    name: content_available_in
+    label: content_available_in
+  - type: text
+    name: read_it_in
+    label: read_it_in
