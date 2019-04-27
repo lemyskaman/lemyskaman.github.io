@@ -52,7 +52,7 @@ fields:
   label: categories
 - name: tags
   type: select
-  default: frameworks
+  default: un-tagged
   config:
     required: true
     options:
@@ -60,6 +60,7 @@ fields:
     - guides-and-tutorials
     - proyects
     - travels
+    - un-tagged
     source:
       type: simple
       section: 
