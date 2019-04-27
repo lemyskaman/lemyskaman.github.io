@@ -1,5 +1,5 @@
 ---
-bg: tag.jpg
+bg: "/archivo_edit.jpg"
 layout: archive
 title: Archive
 crawlertitle: All articles
