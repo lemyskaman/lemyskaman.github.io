@@ -1,6 +1,6 @@
 ---
-title: Web estática con jekyll, en github
-crawlertitle: Web estática con jekyll, en github
+title: Sitio web con jekyll en github
+crawlertitle: Sitio web con jekyll en github
 summary: Jekyll + github = tu web
 date: 2019-04-27 04:00:00 +0000
 categories: posts
