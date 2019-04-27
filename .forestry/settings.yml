@@ -10,7 +10,6 @@ sections:
 - type: document
   path: _data/translations.yml
   label: Translations
-  match: "**/*"
 - type: directory
   path: en/_posts
   label: EN_POSTS
