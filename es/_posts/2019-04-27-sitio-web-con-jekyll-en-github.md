@@ -1,7 +1,7 @@
 ---
 title: Sitio web con jekyll en github
 crawlertitle: Sitio web con jekyll en github
-summary: Jekyll + github = tu web
+summary: Jekyll + github = Tu sitio
 date: 2019-04-27 04:00:00 +0000
 categories: posts
 tags: guias-y-tutoriales
