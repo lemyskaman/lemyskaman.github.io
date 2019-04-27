@@ -1,4 +1,63 @@
 ---
-label: post_template
+label: es_post_template
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: crawlertitle
+  type: text
+  config:
+    required: true
+  label: crawlertitle
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: 
+  default: now
+- name: categories
+  type: select
+  default: es/_posts/2016-06-29-es6.md
+  config:
+    required: true
+    options: []
+    source:
+      type: simple
+      section: es_posts
+      file: es/_posts/2016-06-29-es6.md
+      path: 
+  label: categories
+- name: tags
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Frameworks
+    - guias-y-tutoriales
+    - proyectos
+    - viajes
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: tags
+- name: author
+  type: text
+  config:
+    required: true
+  label: author
+  default: Lemys Lopez
+- name: lang-ref
+  type: text
+  config:
+    required: true
+  label: lang-ref
