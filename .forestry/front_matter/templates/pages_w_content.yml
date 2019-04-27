@@ -7,3 +7,30 @@ fields:
   config:
     maxSize: 250
   label: bg
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: crawlertitle
+  type: text
+  config:
+    required: false
+  label: crawlertitle
+  description: 'how does robots see it '
+- name: sumary
+  type: text
+  config:
+    required: false
+  label: sumary
+- name: lang-ref
+  type: text
+  config:
+    required: false
+  label: lang-ref
+  description: relation
