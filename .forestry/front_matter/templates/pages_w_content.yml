@@ -1,4 +1,9 @@
 ---
 label: pages_w_content
 hide_body: false
-fields: []
+fields:
+- name: bg
+  type: text
+  config:
+    required: false
+  label: bg
