@@ -1,4 +1,74 @@
 ---
 label: en_post_template
 hide_body: false
-fields: []
+fields:
+- name: bg
+  type: file
+  config:
+    maxSize: 250
+  label: bg
+- name: lang-ref
+  type: text
+  config:
+    required: true
+  label: lang-ref
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: sumary
+  type: text
+  config:
+    required: true
+  label: sumary
+- name: crawlertitle
+  type: text
+  config:
+    required: true
+  label: crawlertitle
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: categories
+  type: select
+  default: posts
+  config:
+    required: true
+    options:
+    - posts
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: categories
+- name: tags
+  type: select
+  default: frameworks
+  config:
+    required: true
+    options:
+    - frameworks
+    - guides-and-tutorials
+    - proyects
+    - travels
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: tags
+- name: author
+  type: text
+  config:
+    required: true
+  label: author
+  default: Lemys López
