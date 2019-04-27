@@ -3,7 +3,7 @@ label: pages_w_content
 hide_body: false
 fields:
 - name: bg
-  type: text
+  type: file
   config:
-    required: false
+    maxSize: 250
   label: bg
