@@ -1,17 +1,16 @@
 ---
-title: Sitio web con jekyll en github
-crawlertitle: Sitio web con jekyll en github
-summary: Jekyll + github = Tu sitio
+title: Jekill Website on Github
+crawlertitle: Jekill website on github
+summary: Jekyll + github = Your website
 date: 2019-04-27 04:00:00 +0000
 categories: posts
 tags: guides_and_tutorials
 author: Lemys Lopez
 lang-ref: jekyll-on-github-website
-sumary: Pagina con Jekyll Github
 bg: "/jekyll_on_github.png"
 
 ---
-tu vas a encontrar este post en `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+ Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
