@@ -17,11 +17,11 @@ fields:
   config:
     required: true
   label: title
-- name: sumary
+- name: summary
   type: text
   config:
     required: true
-  label: sumary
+  label: summary
 - name: crawlertitle
   type: text
   config:
