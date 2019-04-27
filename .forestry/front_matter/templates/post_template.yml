@@ -73,3 +73,5 @@ fields:
     required: true
   label: author
   default: Lemys Lopez
+pages:
+- es/_posts/2016-06-28-bienvenido-a-jekyll.md

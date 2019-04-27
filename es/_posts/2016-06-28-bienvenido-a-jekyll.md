@@ -1,14 +1,15 @@
 ---
-#layout: post
-title:  "bienvenido a Jekyll!"
-crawlertitle: "como usar jekyll"
-summary: "Jekyll pagina por defecto"
-date:   2016-06-28 23:09:47 +0700
+title: bienvenido a Jekyll!
+crawlertitle: como usar jekyll
+summary: Jekyll pagina por defecto
+date: 2016-06-28 16:09:47 +0000
 categories: posts
-tags: 'jekyll'
-author: lemys
-#lang: es
+tags: Frameworks
+author: Lemys Lopez
 lang-ref: welcome-jekyll
+sumary: Pagina con Jekyll Github
+bg: "/jekyll_on_github.png"
+
 ---
 tu vas a encontrar este post en `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
