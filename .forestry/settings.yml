@@ -33,6 +33,12 @@ sections:
   match: "*.md"
   exclude: _posts/
 - type: directory
+  path: _includes
+  label: Includes
+  create: all
+  match: "**/*"
+  new_doc_ext: "*.*"
+- type: directory
   path: _layouts
   label: layouts
   create: all
