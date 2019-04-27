@@ -24,6 +24,11 @@ fields:
   - type: text
     name: read_it_in
     label: read_it_in
+  - name: chair
+    type: text
+    config:
+      required: false
+    label: chair
 - type: field_group
   name: es
   label: es
@@ -46,5 +51,10 @@ fields:
   - type: text
     name: read_it_in
     label: read_it_in
+  - name: chair
+    type: text
+    config:
+      required: false
+    label: chair
 pages:
 - _data/translations.yml
