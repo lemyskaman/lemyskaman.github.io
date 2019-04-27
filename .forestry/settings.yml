@@ -4,21 +4,23 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: _layouts
-  label: layouts
-  create: all
-  match: "**/*"
-  new_doc_ext: "*.*"
 - type: document
   path: index.html
   label: INDEX
+- type: document
+  path: _data/translations.yml
+  label: Translations
+  match: "**/*"
 - type: directory
-  path: es
-  label: ES_PAGES
+  path: en/_posts
+  label: EN_POSTS
   create: documents
-  match: "*.md"
-  exclude: _posts/
+  match: "**/*"
+- type: directory
+  path: es/_posts
+  label: ES_POSTS
+  create: all
+  match: "**/*"
 - type: directory
   path: en
   label: EN_PAGES
@@ -26,15 +28,17 @@ sections:
   match: "*.md"
   exclude: _posts/
 - type: directory
-  path: es/_posts
-  label: ES_POSTS
+  path: es
+  label: ES_PAGES
+  create: documents
+  match: "*.md"
+  exclude: _posts/
+- type: directory
+  path: _layouts
+  label: layouts
   create: all
   match: "**/*"
-- type: directory
-  path: en/_posts
-  label: EN_POSTS
-  create: documents
-  match: "**/*"
+  new_doc_ext: "*.*"
 upload_dir: assets/images
 public_path: ''
 front_matter_path: ''
