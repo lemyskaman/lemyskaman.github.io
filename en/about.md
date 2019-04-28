@@ -1,6 +1,6 @@
 ---
 bg: "/glitch.jpg"
-layout: pages
+layout: page
 title: About
 crawlertitle: About Lemys Lopez
 summary: "$ > whoami"
