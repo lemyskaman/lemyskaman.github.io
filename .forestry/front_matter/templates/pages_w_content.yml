@@ -50,5 +50,5 @@ fields:
     required: false
   label: active
 pages:
-- es/acerca-de.md
 - en/about.md
+- es/acerca-de.md

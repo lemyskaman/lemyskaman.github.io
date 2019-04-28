@@ -7,7 +7,7 @@ summary: "$ > whoami"
 lang-ref: about
 date: 2019-04-28 00:58:39 +0000
 active: About
-order: 3
+order: 2
 
 ---
 A cyber-bohemian music lover, curious, maker, creative technician who plays a lot with electricity logic and many computers also addicted to a good coffee.
