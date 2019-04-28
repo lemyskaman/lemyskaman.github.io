@@ -18,7 +18,7 @@ I’ve created this site honestly as an archive to store everything i’ve learn
 
 Feel free to get in contact with me at my personal email [lemyskaman@gmail.com](mailto:lemyskaman@gmail.com) and as  @lemyskaman on:
 
-* [**facebook**](https://www.facebook.com/lemyskaman "Facebook")
-* [**twitter**](https://twitter.com/lemyskaman)
-* [**instagram**](https://www.instagram.com/lemyskaman/ "Instagram")
-* [**github **](http://github.com/lemyskaman "Github") wich im thinking to stop using
+* [**Facebook**](https://www.facebook.com/lemyskaman "Facebook")
+* [**Twitter**](https://twitter.com/lemyskaman)
+* [**Instagram**](https://www.instagram.com/lemyskaman/ "Instagram")
+* [**Github**](http://github.com/lemyskaman "Github") wich im thinking to stop using
