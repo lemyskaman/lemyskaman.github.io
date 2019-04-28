@@ -1,10 +1,10 @@
 ---
-bg: owl.jpg
+bg: "/glitch.jpg"
 layout: page
 title: Acerca de
-crawlertitle: Quien es lemys
+crawlertitle: Acerca de Lemys Lopez
 permalink: "/acerca-de/"
-summary: Acerca de este blog
+summary: "$ > whoami"
 active: Acerca de
 order: 2
 lang-ref: about
@@ -12,12 +12,4 @@ content: prueba
 sumary: ''
 
 ---
-aqui va algo sobre mi
-
-You can find the source code for the Jekyll new theme at:
-{{site.twitter_username}} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{{site.github_username}} /
-[jekyll](https://github.com/jekyll/jekyll)
+"Un cyber-bohemio melómano, curioso interesado en las ciencias  "
