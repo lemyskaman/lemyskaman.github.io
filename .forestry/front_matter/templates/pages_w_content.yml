@@ -34,6 +34,21 @@ fields:
     required: false
   label: lang-ref
   description: relation
+- name: order
+  type: number
+  label: order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: active
+  type: text
+  config:
+    required: false
+  label: active
 pages:
 - es/acerca-de.md
 - en/about.md
