@@ -29,6 +29,22 @@ fields:
     schema:
       format: markdown
   label: content
+- name: order
+  type: number
+  label: order
+  description: the position in the header
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: active
+  type: text
+  config:
+    required: false
+  label: active
+  description: does it will be added to header ?
 pages:
 - es/archivo.md
 - en/archive.md
