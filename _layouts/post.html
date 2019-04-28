@@ -8,21 +8,38 @@ layout: default
 
   <p class="post-meta">
     <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d-%m-%Y" }}</time>
-    
+
 
     {% if page.author %}
-      &nbsp;/&nbsp;
-      <span>{{ page.author }}</span>
+    &nbsp;/&nbsp;
+    <span>{{ page.author }}</span>
     {% endif %}
- 
-    
+
+    {% if page.lang-ref  %}
+    {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+    {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+    <p>
+      <em>{{ site.data.translations[page.lang]['read_it_in'] }}:</em>
+      {% for post in posts %}
+      {% if post.url != "/" %}
+      <a title="{{ site.data.languages[post.lang].label }}"
+        href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].label }}</a>,
+      {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+    {% endif %}
+
   </p>
 
   <div class="post-content">
 
     {{ content }}
 
-   
+
 
   </div>
 
