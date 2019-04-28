@@ -35,4 +35,5 @@ fields:
   label: lang-ref
   description: relation
 pages:
+- en/about.md
 - es/acerca-de.md
