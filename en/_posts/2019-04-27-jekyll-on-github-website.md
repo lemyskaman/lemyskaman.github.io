@@ -14,13 +14,13 @@ Github is well know as the "biggest database of software code" but nowadays thei
 
 In this guide **I’ll assume you have some basic knowledge about how a website works, some experience using git with a github account,** and also that you are using a current stable version of Debian or some debian based os like Ubuntu, i will focus only in the process of creating a new site with jekyll locally and then pushing it on github.
 
-\### Installing dependencies
+####  Installing dependencies
 
 Jekyll was developed with ruby, and therefore it makes planty use of some of it gems, also some development tools libraries and header files are needed, they are shipped to us inside build-essential and zlib1-dev deb packages. You can install them using apt (or your favourite package manager), running a command like this might be enough to get them:
 
     sudo apt-get install ruby-full build-essential zlib1g-dev git
 
-\### Configuring gems with a user directory
+#### Configuring gems with a user directory
 
 It's not a good thing to install ruby gems as a root user, thats why to create a gems dir, that holds all of our libs, is a better approach, so thats the first thing to do to create a gems dir:
 
@@ -43,9 +43,9 @@ Finally we load the file and we are ready to install some gems stuff:
 
     $ source ~/.bashrc
 
-\### Installing Jekyll and github-pages
+#### Installing Jekyll and github-pages
 
-\**	**Now with properly setted ruby environment we can continue installing jekyll and other ruby tools like bundler and github-pages the last one is like a metapackage with all ruby gems for a github based jekyll website:
+Now with properly setted ruby environment we can continue installing jekyll and other ruby tools like bundler and github-pages the last one is like a metapackage with all ruby gems for a github based jekyll website:
 
     $ gem install jekyll bundler git  github-pages
 
