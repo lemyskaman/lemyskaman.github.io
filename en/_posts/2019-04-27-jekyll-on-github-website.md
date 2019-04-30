@@ -51,7 +51,7 @@ Now with properly setted ruby environment we can continue installing jekyll and 
 
 	So far if nothing goes wrong we are ready to create a new jekyll site.
 
-\### Creating a new jekyll site
+#### Creating a new jekyll site
 
 	It can be done using the jekyll command where user its your own username at github.com:
 
@@ -72,7 +72,7 @@ Now with properly setted ruby environment we can continue installing jekyll and 
     └── _posts
     	└── 2019-04-29-welcome-to-jekyll.markdown
 
-\### Editing the Gemfile for github, update gems and test
+#### Editing the Gemfile for github, update gems and test
 
 	It necessary to comment the line that use the jekyll version and uncomment the one that install the gem github-pages to do so just prepend a # at the beginning of the line number 11, and remove the # from the line number 18, the gemfile should look similar to this 
 
@@ -100,22 +100,20 @@ Now with properly setted ruby environment we can continue installing jekyll and 
 
 	Then you can update the gems with the bundle command:
 
-$ bundle update
+    $ bundle update
 
 	Jekyll comes with a web server for local testing, and bundle tool checks for changes in the code to fire things up just run:
 
-$ bundle exec jekyll serve --host=0.0.0.0
+    $ bundle exec jekyll serve --host=0.0.0.0
 
 	Now if you open your favourite browser at localhost:4000 you should be able to view your site.
 
-\### Push your site to github
+#### Push your site to github
 
 	First you need to create a repository project on github.com with you github username prepend to github.io, in shot a new project repository with the same name of your newly directory containing the files of your site (user.github.io), then initialize git tracking and configure where to push with the following commands: 
 
-$ git init
-
-$ git remote add origin git@github.com:user/user.github.io
-
-$ git push -u origin master
+    $ git init
+    $ git remote add origin git@github.com:user/user.github.io 
+    $ git push -u origin master
 
 	Finally you will be able to view your site at http://user.github.io.
