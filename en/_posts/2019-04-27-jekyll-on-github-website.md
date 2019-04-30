@@ -16,30 +16,30 @@ In this guide **I’ll assume you have some basic knowledge about how a website 
 
 \### Installing dependencies
 
-\**	**Jekyll was developed with ruby, and therefore it makes planty use of some of it gems, also some development tools libraries and header files are needed, they are shipped to us inside build-essential and zlib1-dev deb packages. You can install them using apt (or your favourite package manager), running a command like this might be enough to get them:
+Jekyll was developed with ruby, and therefore it makes planty use of some of it gems, also some development tools libraries and header files are needed, they are shipped to us inside build-essential and zlib1-dev deb packages. You can install them using apt (or your favourite package manager), running a command like this might be enough to get them:
 
     sudo apt-get install ruby-full build-essential zlib1g-dev git
 
 \### Configuring gems with a user directory
 
-\**	**
-
-\**	**It's not a good thing to install ruby gems as a root user, thats why to create a gems dir, that holds all of our libs, is a better approach, so thats the first thing to do to create a gems dir:
+It's not a good thing to install ruby gems as a root user, thats why to create a gems dir, that holds all of our libs, is a better approach, so thats the first thing to do to create a gems dir:
 
     $ cd ~ \ 
     $ mkdir gems
 
-So we need to edit our  \~/.bashrc file, adding a new environment var (**GEM_HOME**), and updating the value of another (**PATH**),  you can edit the file with you fav text editor, i like to use nano:  
+So we need to edit our  \~/.bashrc file, adding a new environment var (**GEM_HOME**), and updating the value of another (**PATH**),  you can edit the file with you fav text editor, i like to use nano: 
 
     $ nano .bashrc
 
-	Then at the very end type something like this:
+	
+
+Then at the very end type something like this:
 
     #gem stuf 
     export GEM_HOME="$HOME/gems" 
     export PATH="$HOME/gems/bin:$PATH"
 
-	Finally we load the file and we are ready to install some gems stuff:
+Finally we load the file and we are ready to install some gems stuff:
 
     $ source ~/.bashrc
 
