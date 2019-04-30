@@ -16,8 +16,6 @@ In this guide **I’ll assume you have some basic knowledge about how a website 
 
 \### Installing dependencies
 
-	
-
 	Jekyll was developed with ruby, and therefore it makes planty use of some of it gems, also some development tools libraries and header files are needed, they are shipped to us inside build-essential and zlib1-dev deb packages. You can install them using apt (or your favourite package manager), running a command like this might be enough to get them:
 
     sudo apt-get install ruby-full build-essential zlib1g-dev git
@@ -65,23 +63,14 @@ So we need to edit our  \~/.bashrc file, adding a new environment var (**GEM_HOM
 
 	It should have a directory tree  like this: 
 
-$ tree
-
-.
-
-├── 404.html
-
-├── about.md
-
-├── _config.yml
-
-├── Gemfile
-
-├── index.md
-
-└── _posts
-
-    └── 2019-04-29-welcome-to-jekyll.markdown
+    $ tree
+    ├── 404.html
+    ├── about.md
+    ├── _config.yml
+    ├── Gemfile
+    ├── index.md
+    └── _posts
+    	└── 2019-04-29-welcome-to-jekyll.markdown
 
 \### Editing the Gemfile for github, update gems and test
 
