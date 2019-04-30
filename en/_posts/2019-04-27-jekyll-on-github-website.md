@@ -16,7 +16,7 @@ In this guide **I’ll assume you have some basic knowledge about how a website 
 
 \### Installing dependencies
 
-	Jekyll was developed with ruby, and therefore it makes planty use of some of it gems, also some development tools libraries and header files are needed, they are shipped to us inside build-essential and zlib1-dev deb packages. You can install them using apt (or your favourite package manager), running a command like this might be enough to get them:
+\**	**Jekyll was developed with ruby, and therefore it makes planty use of some of it gems, also some development tools libraries and header files are needed, they are shipped to us inside build-essential and zlib1-dev deb packages. You can install them using apt (or your favourite package manager), running a command like this might be enough to get them:
 
     sudo apt-get install ruby-full build-essential zlib1g-dev git
 
