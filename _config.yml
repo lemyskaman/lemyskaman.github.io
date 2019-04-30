@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Lemys López
 email: lemyskaman@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  a site abouth me
+description: >- # this means to ignore newlines until "baseurl:
+  Lemys Lopez thougs
 baseurl: "" # the subpath of your site, e.g. /blog
 
 lang: "en"
