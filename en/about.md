@@ -2,10 +2,10 @@
 bg: "/glitch.jpg"
 layout: page
 title: About
-crawlertitle: About Lemys Lopez
+crawlertitle: "¿ Who is Lemys López ?"
 summary: "$ > whoami"
 lang-ref: about
-date: 2019-04-28 00:58:39 +0000
+date: '2019-04-28T00:58:39.000+00:00'
 active: About
 order: 2
 
