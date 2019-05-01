@@ -55,11 +55,11 @@ It can be done using the jekyll command where user its your own username at gith
 
     $ jekyll new user.github.io 
 
-Remember to replace “user” with your github username, then we change to our newly directory containing the files of our site:
+Remember to replace “user” with your github username, (in my case my username is [lemyskaman](https://github.com/lemyskaman "lemyskaman")), then we change to our newly directory containing the files of our site:
 
     $ cd user.github.io
 
-It should have a directory tree  like this:
+It should have inside a  directory tree  like this:
 
     $ tree
     ├── 404.html
