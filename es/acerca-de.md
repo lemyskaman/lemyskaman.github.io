@@ -2,7 +2,7 @@
 bg: "/glitch.jpg"
 layout: page
 title: Acerca de
-crawlertitle: Acerca de Lemys Lopez
+crawlertitle: "¿ Quien es Lemys López ?"
 permalink: "/acerca-de/"
 summary: "$ > whoami"
 active: Acerca de
