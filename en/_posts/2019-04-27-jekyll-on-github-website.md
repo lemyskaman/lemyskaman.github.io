@@ -14,7 +14,7 @@ Github is well know as the "biggest database of software code" but nowadays thei
 
 In this guide **I’ll assume you have some basic knowledge about how a website works, some experience using git with a github account,** and also that you are using a current stable version of Debian or some debian based os like Ubuntu, i will focus only in the process of creating a new site with jekyll locally and then pushing it on github.
 
-####  Installing dependencies
+#### Installing dependencies
 
 Jekyll was developed with ruby, and therefore it makes planty use of some of it gems, also some development tools libraries and header files are needed, they are shipped to us inside build-essential and zlib1-dev deb packages. You can install them using apt (or your favourite package manager), running a command like this might be enough to get them:
 
@@ -22,16 +22,14 @@ Jekyll was developed with ruby, and therefore it makes planty use of some of it 
 
 #### Configuring gems with a user directory
 
-It's not a good thing to install ruby gems as a root user, thats why to create a gems dir, that holds all of our libs, is a better approach, so thats the first thing to do to create a gems dir:
+It's not a good thing to install ruby gems as a root user, thats why to create a gems dir on our os user folder, that holds all of our libs, is a better approach, so thats the first thing to do to create a gems dir:
 
     $ cd ~ \ 
     $ mkdir gems
 
-So we need to edit our  \~/.bashrc file, adding a new environment var (**GEM_HOME**), and updating the value of another (**PATH**),  you can edit the file with you fav text editor, i like to use nano: 
+So we need to edit our  \~/.bashrc file, adding a new environment var (**GEM_HOME**), and updating the value of another (**PATH**),  you can edit the file with you fav text editor, i like to use nano:
 
     $ nano .bashrc
-
-	
 
 Then at the very end type something like this:
 
@@ -61,7 +59,7 @@ Remember to replace “user” with your github username, then we change to our 
 
     $ cd user.github.io
 
-It should have a directory tree  like this: 
+It should have a directory tree  like this:
 
     $ tree
     ├── 404.html
@@ -74,9 +72,9 @@ It should have a directory tree  like this:
 
 #### Editing the Gemfile for github, update gems and test
 
-It necessary to comment the line that use the jekyll version and uncomment the one that install the gem github-pages to do so just prepend a # at the beginning of the line number 11, and remove the # from the line number 18, the gemfile should look similar to this 
+It necessary to comment the line that use the jekyll version and uncomment the one that install the gem github-pages to do so just prepend a # at the beginning of the line number 11, and remove the # from the line number 18, the gemfile should look similar to this
 
-{% highlight bash %} 
+{% highlight bash %}
 
 10 # Happy Jekylling!
 
@@ -110,7 +108,7 @@ Now if you open your favourite browser at localhost:4000 you should be able to v
 
 #### Push your site to github
 
-First you need to create a repository project on github.com with you github username prepend to github.io, in shot a new project repository with the same name of your newly directory containing the files of your site (user.github.io), then initialize git tracking and configure where to push with the following commands: 
+First you need to create a repository project on github.com with you github username prepend to github.io, in shot a new project repository with the same name of your newly directory containing the files of your site (user.github.io), then initialize git tracking and configure where to push with the following commands:
 
     $ git init
     $ git remote add origin git@github.com:user/user.github.io 
