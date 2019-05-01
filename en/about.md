@@ -2,7 +2,7 @@
 bg: "/glitch.jpg"
 layout: page
 title: About
-crawlertitle: "¿ Who is Lemys López ?"
+crawlertitle: Who is Lemys López ?
 summary: "$ > whoami"
 lang-ref: about
 date: '2019-04-28T00:58:39.000+00:00'
