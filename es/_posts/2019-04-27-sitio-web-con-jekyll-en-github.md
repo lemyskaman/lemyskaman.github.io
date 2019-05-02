@@ -97,7 +97,7 @@ Jekyll viene con un servidor web para pruebas locales, mientras que la herramien
 
 Ahora abre tu explorador web favorito apuntando a la dirección  http://localhost:4000 y deberías ver tu sitio.
 
-#### Push your site to github
+#### Subir tu sitio a github y hacerlo publico
 
 Primero es necesario crear un repositorio en [http://github.com](http://github.com "github") usando tu no nombre de usuario en github  como prefijo a .github.io, en pocas palabras crea un proyecto con el nombre de la carpeta creada con jekyll en uno de los pasos anteriores, que contiene los archivos de tu sitio (usuario.github.io), luego inicializamos git y lo configuramos  para seguir la rama de tu proyecto con los siguientes comandos :
 
