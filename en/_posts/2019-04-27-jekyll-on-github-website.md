@@ -116,4 +116,4 @@ First you need to create a repository project on github.com with you github user
 
 Finally you will be able to view your site at http://user.github.io.
 
-Jekyll as a cms has a lot of features and it use the lucid template engine and it, basicaly works using text data form markdown files with its header data ( front matter ) to builld our site, i will make a post soon telling you more about it and teaching what i've  learned about jekyll usage.
+Jekyll as a cms has a lot of features and it use the [liquid template engine](https://shopify.github.io/liquid/basics/types/ "liquid") and it, basicaly works using text data form [markdown](https://en.wikipedia.org/wiki/Markdown "markdown") files with its header data ( [front matter](https://jekyllrb.com/docs/front-matter/ "jekyll front matter") ) to builld our site, i will make a post soon telling you more about it and teaching what i've  learned about jekyll usage.
