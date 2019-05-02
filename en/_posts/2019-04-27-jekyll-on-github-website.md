@@ -108,7 +108,7 @@ Now if you open your favourite browser at localhost:4000 you should be able to v
 
 #### Push your site to github and make it public
 
-First you need to create a repository project on github.com with you github username prepend to github.io, in shot a new project repository with the same name of your newly directory containing the files of your site (user.github.io), then initialize git tracking and configure where to push with the following commands:
+First you need to create a repository project on github.com with you github username prepend to github.io, in short: create a new project repository with the same name of your newly directory containing the files of your site (user.github.io), then initialize git tracking and configure where to push with the following commands:
 
     $ git init
     $ git remote add origin git@github.com:user/user.github.io 
