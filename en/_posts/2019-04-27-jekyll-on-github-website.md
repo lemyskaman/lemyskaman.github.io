@@ -1,6 +1,6 @@
 ---
-title: Jekill Website on Github
-crawlertitle: Jekill website on github
+title: Jekyll Website on Github
+crawlertitle: Jekyll website on github
 summary: Jekyll + github = Your website
 date: 2019-04-27T04:00:00.000+00:00
 categories: posts
