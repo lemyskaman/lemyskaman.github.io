@@ -7,6 +7,7 @@ en:
   content_available_in: Content available in
   read_it_in: Read it in
   chair: chair
+  read_more: 'Read more'
 es:
   untagged: Sin Etiqueta
   guides_and_tutorials: Guias y Tutoriales
@@ -15,3 +16,4 @@ es:
   content_available_in: Contenido disponible en
   read_it_in: Leelo en
   chair: silla
+  read_more: 'Leer más'

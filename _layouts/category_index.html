@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="page">
+    <p class="post-meta">
+        {% if page.lang-ref  %}
+            {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+            {% if posts.size == 0 %}
+                {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+            {% endif %}
+            {% if posts.size > 1 %}
+
+                <span>
+                    {{ site.data.translations[page.lang]['content_available_in'] }}:
+                    {% for post in posts %}
+                        {% if post.url != "/" %}
+                            <a title="{{ site.data.languages[post.lang].label }}" href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].label }}</a>,
+                        {% endif %}
+                    {% endfor %}
+                </span>
+            {% endif %}
+        {% endif %}
+
+    </p>
+    {{ content }}
+
+</article>

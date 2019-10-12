@@ -1,23 +1,27 @@
-
-  
 <footer class="blog-footer content-wrapper">
-{% if page.lang-ref  %}
+	{% if page.lang-ref  %}
 	{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
 	{% if posts.size == 0 %}
-    	{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+	{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
 	{% endif %}
 	{% if posts.size > 1 %}
 	<p>
-    	<em>{{ site.data.translations[page.lang]['read_it_in'] }}:</em>
-    	{% for post in posts %}
-        	{% if post.url != "/" %}
-		<a title="{{ site.data.languages[post.lang].label }}"  href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].label }}</a>, 
-       		{% endif %}
-       	{% endfor %}
+		<em>{{ site.data.translations[page.lang]['read_it_in'] }}:</em>
+		{% for post in posts %}
+		{% if post.url != "/" %}
+		<a title="{{ site.data.languages[post.lang].label }}"
+			href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].label }}</a>,
+		{% endif %}
+		{% endfor %}
 	</p>
 	{% endif %}
-{% endif %}
+	{% endif %}
+	
 	<p>&copy; <span class="full-year"></span> {{ site.title }}</p>
-</div>
-<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
-
+	<p>
+		<a href='http://www.catb.org/hacker-emblem/'>
+			<img src='http://www.catb.org/hacker-emblem/glider.png' height='30' alt='hacker emblem' />
+		</a>
+	</p>
+	</div>
+	<script src="{{ site.baseurl }}/assets/js/scripts.js"></script>

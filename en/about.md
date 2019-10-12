@@ -7,6 +7,7 @@ summary: "$ > whoami"
 lang-ref: about
 date: '2019-04-28T00:58:39.000+00:00'
 active: About
+permalink: "/about/lemys-lopez"
 order: 2
 
 ---

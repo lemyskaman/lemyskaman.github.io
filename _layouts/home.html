@@ -5,6 +5,7 @@ layout: default
 {% for post in posts limit: 5 %}
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
+    {{ post.excerpt }} <a href="{{ post.url | relative_url }}">{{ site.data.translations[page.lang]['read_more'] }}...</a>
+
   </article>
 {% endfor %}

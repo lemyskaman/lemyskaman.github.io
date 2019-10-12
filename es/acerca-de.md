@@ -3,7 +3,7 @@ bg: "/glitch.jpg"
 layout: page
 title: Acerca de
 crawlertitle: "¿ Quien es Lemys López ?"
-permalink: "/acerca-de/"
+permalink: "/acerca-de/lemys-lopez"
 summary: "$ > whoami"
 active: Acerca de
 order: 2
