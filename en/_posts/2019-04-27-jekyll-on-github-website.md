@@ -7,6 +7,7 @@ categories: posts
 tags: guides_and_tutorials
 author: Lemys Lopez
 lang-ref: jekyll-on-github-website
+sumary: Static website bundle with jekill and served from github
 bg: "/jekyll_on_github.png"
 
 ---
