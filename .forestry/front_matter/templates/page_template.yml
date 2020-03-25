@@ -46,8 +46,8 @@ fields:
   label: active
   description: does it will be added to header ?
 pages:
-- es/archivo.md
 - en/archive.md
 - en/index.md
+- es/archivo.md
 - es/index.md
 - index.html

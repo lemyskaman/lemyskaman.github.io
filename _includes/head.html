@@ -1,3 +1,6 @@
+---
+
+---
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139156683-1"></script>
@@ -23,7 +26,7 @@
     {% endif %}
   </title>
 
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% elseif site.page.lang.description %}{{ site.page.lang.description }}{%else %}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -43,8 +46,8 @@
   <meta name="twitter:description" content="{{ page.summary }}">
 
   {% if page.bg %}
-    <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ page.bg }}">
-    <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}{{ page.bg }}">
+    <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
+    <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
   {% else %}
     <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
     <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
