@@ -3,7 +3,7 @@ bg: "/archivo_edit.jpg"
 layout: archive
 title: Archivo
 crawlertitle: Todos los Articulos
-summary: Cosas que pienso
+summary: Cosas que pienso/aprendo
 active: archive
 order: 1
 lang-ref: archive
