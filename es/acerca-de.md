@@ -18,7 +18,7 @@ Mi partida de nacimiento dice que mi nombre es Lemys López, un Venezolano de un
 
 He creado estas páginas honestamente para organizar todo eso que por curioso aprendo y vivo, y que por desuso a veces me cuesta recordar, algo así como el recetario de postres de tu abuela y si te gustan sus galletas, entonces ¿por que no compartir la receta con todo el mundo?.
 
-Puedes ponerte en contacto conmigo en mi correo personal [**lemyskaman@gmail.com**](mailto:lemyskaman@gmail.com) ó como @lemyskaman en:
+Puedes ponerte en contacto conmigo en mi correo personal [**lemyskaman@gmail.com**](mailto:lemyskaman@gmail.com) ó como **@lemyskaman** en:
 
 * [**Telegram**](https://t.me/lemyskaman "Telegram")
 * [**Facebook**](https://www.facebook.com/lemyskaman "Facebook")
