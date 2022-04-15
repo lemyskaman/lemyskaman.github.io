@@ -1,5 +1,5 @@
 ---
-bg: "/yo_puertafalsa.jpg"
+bg: "/yo_cesped.jpg"
 layout: page
 title: About
 crawlertitle: Who is Lemys López ?
