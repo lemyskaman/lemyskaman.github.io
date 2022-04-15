@@ -14,7 +14,7 @@ Most of the time we want to share the resources of our server among different ap
 
 The people behind php and its community including cms, apps and frameworks creators, do their best on what  is known as backward compatibility. But some changes and upgrades introduced on the language specification together with the deprecation of some characteristics makes hard to allow legacy code to be interpreted by the php preprocesor
 
-One proved simple solution to allow the coexistence of multiple php versions  on ubuntu >=18.04 would be to add the [PPA](https://launchpad.net/\~ondrej/+archive/ubuntu/php) repository of  [Ondřej Surý](https://twitter.com/oerdnj), in which we can find the 5.6 version and all above 7.0, available to install in the same OS. 
+One proved simple solution to allow the coexistence of multiple php versions  on ubuntu >=18.04 would be to add the [PPA](https://launchpad.net/\~ondrej/+archive/ubuntu/php) repository of  [Ondřej Surý](https://twitter.com/oerdnj), in which we can find the 5.6 version and all above 7.0, available to install in the same OS.
 
 We only need to run the next command to add the repository:
 
@@ -33,7 +33,7 @@ If you use Apache as http server you can run any of the next commands depending 
     $sudo apt install php7.3   [PHP 7.3]
     $sudo apt install php7.4s   [PHP 7.4]
 
-Otherwise if you are ngix user the you should use the related fpm version:
+Otherwise if you are nginx user the you should use the related fpm version:
 
     $sudo apt install php5.6-fpm   [PHP 5.6]
     $sudo apt install php7.0-fpm   [PHP 7.0]
