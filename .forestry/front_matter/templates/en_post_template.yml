@@ -73,5 +73,3 @@ fields:
     required: true
   label: author
   default: Lemys López
-pages:
-- en/_posts/2022-04-15-post-test.md
