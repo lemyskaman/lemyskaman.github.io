@@ -73,3 +73,5 @@ fields:
     required: true
   label: author
   default: Lemys López
+pages:
+- en/_posts/post-test.md
