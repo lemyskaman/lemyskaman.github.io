@@ -1,5 +1,5 @@
 ---
-bg: "/glitch.jpg"
+bg: "/yo_cesped.jpg"
 layout: page
 title: Acerca de
 crawlertitle: "¿ Quien es Lemys López ?"
