@@ -9,8 +9,8 @@ author: Lemys Lopez
 lang-ref: jekyll-on-github-website
 sumary: Static website bundle with jekill and served from github
 bg: "/jekyll_on_github.png"
-
 ---
+
 Github is well know as the "biggest database of software code" but nowadays their public non paid services, allows you to  serve static web files to as your own website (just like this one that you are reading). This lines will guide you through  the process of publishing some static web-files, generated with the use of a popular ruby coded tool called Jekyll, on github pages using the linux terminal.
 
 In this guide **I’ll assume you have some basic knowledge about how a website works, some experience using git with a github account,** and also that you are using a current stable version of Debian or some debian based os like Ubuntu, i will focus only in the process of creating a new site with jekyll locally and then pushing it on github.

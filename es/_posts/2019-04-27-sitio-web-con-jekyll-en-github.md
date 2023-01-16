@@ -9,8 +9,8 @@ author: Lemys Lopez
 lang-ref: jekyll-on-github-website
 sumary: Pagina con Jekyll Github
 bg: "/jekyll_on_github.png"
-
 ---
+
 Github es bien conocido como "la base de datos más grande de código fuente de software" pero hoy en día parte de su cartera de servicios gratis, te permite servir archivos web estáticos para tu propio sitio, (de la misma forma como funciona este sitio). Estas líneas pretenden ser una guía en el proceso de publicar en github archivos web, generados por una herramienta bastante popular creada con ruby llamada Jekyll, usando la consola de comandos.
 
 En esta guía **yo asumo que cuentas con algo de conocimientos sobre cómo funciona un sitio web, algo de experiencia usando git con una cuenta de github,** y también que usas una versión reciente de alguna distribución Debian o basada en Debian como Ubuntu, me centraré únicamente en el proceso de crear un sitio nuevo de jekyll localmente y entonces subirlo a github.

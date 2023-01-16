@@ -10,8 +10,8 @@ order: 2
 lang-ref: about
 content: prueba
 sumary: ''
-
 ---
+
 Un cyber-bohemio melómano, curioso, hacedor, técnico creativo que juega mucho con la electricidad la lógica y muchas computadoras, adicto a un buen café.
 
 Mi partida de nacimiento dice que mi nombre es Lemys López, un Venezolano de unos treinta y tantos, para la fecha no logro discernir si desarrollo sistemas para vivir, o si vivo divirtiéndome desarrollando sistemas. Programador por ocupación pero no de profesión pues es a lo que dedico la mayoría de mi tiempo.

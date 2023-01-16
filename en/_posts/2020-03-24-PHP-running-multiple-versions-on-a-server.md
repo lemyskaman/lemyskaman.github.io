@@ -8,8 +8,8 @@ tags: guides_and_tutorials
 author: Lemys Lopez
 lang-ref: php-running-multiple-versions-on-a-server
 bg: "/bg.svg"
-
 ---
+
 Most of the time we want to share the resources of our server among different applications written in also different php versions. But normaly our web server os, ships with a close range of different php versions or with only one available version to install.
 
 The people behind php and its community including cms, apps and frameworks creators, do their best on what  is known as backward compatibility. But some changes and upgrades introduced on the language specification together with the deprecation of some characteristics makes hard to allow legacy code to be interpreted by the php preprocesor

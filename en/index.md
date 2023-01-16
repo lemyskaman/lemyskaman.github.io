@@ -5,5 +5,5 @@ title: lemyskaman.com
 crawlertitle: lemyskaman's blog
 summary: Thougs and experiences as online binnacle
 lang-ref: home
-
 ---
+
